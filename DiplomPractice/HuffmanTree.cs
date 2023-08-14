@@ -10,8 +10,8 @@ namespace DiplomPractice
 {
     public class HuffmanTreeNode
     {
-        public HuffmanTreeNode Parent; // родитель или null для корня
-        public HuffmanTreeNode[] Children = new HuffmanTreeNode[2]; // список дочерних узлов или null
+        public HuffmanTreeNode Parent; 
+        public HuffmanTreeNode[] Children = new HuffmanTreeNode[2];
         public int Frequency = 0;
         public string Value = string.Empty;
 
