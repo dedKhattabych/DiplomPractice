@@ -13,7 +13,6 @@ namespace DiplomPractice
     {
         public static void Main(string[] args)
         {
-            // не забывай смотреть error list.
             if (args.Length == 0)
             {
                 StartEncode();
